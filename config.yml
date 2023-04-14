@@ -1,0 +1,12 @@
+storage:
+  target_img_path: 'data/drawing.png'
+  objects_dir: 'data/objects/'
+  output_dir: 'output/'
+
+sift:
+  ratio_threshold: .9  # sift ratio threshold
+  min_good_matches: 6  # min number of matches satisfying distance condition
+  angle_tolerance: 25  # angle tolerance (in degrees) for rectangle validation
+
+ccoeff:
+  threshold: .6
